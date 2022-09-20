@@ -1,0 +1,29 @@
+h1 {
+    color : red;
+    font-size: 20pt;
+    font-family: Arial;
+}
+
+table{
+    font-family: Courier;
+    font-size: 18pt;
+    color: blue;
+    margin: 25px;
+    border : 1px solid black;
+}
+
+td{
+    padding: 15px;
+    border : 1px solid black;
+}
+
+#m,#p{
+    height: 200px;
+    width : 200px;
+}
+
+a{
+    font-family: sans-serif;
+    font-size: 12pt;
+    color: green;
+}

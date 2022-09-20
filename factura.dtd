@@ -1,0 +1,23 @@
+<!ELEMENT factura (numero, fecha, datosempresa, datoscliente, datosfactura, baseimponible, iva, cuota, total)>
+<!ELEMENT numero (#PCDATA)>
+<!ELEMENT fecha (#PCDATA)>
+<!ELEMENT datosempresa (nombre, direccion, cuidad, codpost, cif)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT direccion (#PCDATA)>
+<!ELEMENT cuidad (#PCDATA)>
+<!ELEMENT cif (#PCDATA)>
+<!ELEMENT codpost (#PCDATA)>
+<!ELEMENT datoscliente (nombrecliente, direccionc, cuidadc, codpostc)>
+<!ELEMENT nombrecliente (#PCDATA)>
+<!ELEMENT direccionc (#PCDATA)>
+<!ELEMENT cuidadc (#PCDATA)>
+<!ELEMENT codpostc (#PCDATA)>
+<!ELEMENT datosfactura (referencias,descripciones,cantidades,precios,ivas,importes)>
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT descripciones (descripcion+)>
+<!-- ............ faltan mas de describir -->
+<!-- TODOS LOS ELEMENTS DE DATOS FACTURA-->
+<!ELEMENT baseimponible (#PCDATA)>
+<!ELEMENT iva (#PCDATA)>
+<!ELEMENT cuota (#PCDATA)>
+<!ELEMENT total (#PCDATA)>

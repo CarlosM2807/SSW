@@ -1,0 +1,26 @@
+
+<html> <head>
+    <script type="text/javascript">
+    function validarFormulario() {
+    var x=document.datos.nombre.value;
+    var e=document.datos.contrasena.value;
+    console.log(x)
+    console.log("La contraseña que pilla es ",e)
+
+    if(e.length < 6){
+        alert("La contraseña tiene que tener minimo 6 caracteres")
+    }
+    if (x==null || x=="") {
+    alert("Rellene el nombre!");
+    return false;
+    } }
+    </script>
+    </head> <body>
+    <form name="datos" action="procesa" onsubmit="validarFormulario()"
+    method="post">
+    Nombre: <input type="text" name="nombre" id="poloo">
+    <br>
+    Contraseña: <input type="password" name="contrasena">
+    <br>
+    <input type="submit" value="Enviar">
+    </form> </body> </html>

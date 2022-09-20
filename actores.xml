@@ -1,0 +1,53 @@
+<? xml version="1.0" ?>
+<!DOCTYPE cine SYSTEM actores.dtd>
+
+<cine>
+    <pelicula>
+        <titulo>Ocho apellidos vascos</titulo>
+        <anno>2014</anno>
+        <director>Emilio Martínez Lázaro</director>
+        <guionistas>    
+            <guionista>
+                <nombre>Borja</nombre>
+                <apellido>Cobeaga</apellido>
+            </guionista>
+            <guionista>
+                <nombre>Diego</nombre>
+                <apellido>San Jose</apellido>
+            </guionista>
+        </guionistas>
+        <actores>
+            <actor numero="id1">
+
+                <!-- AQUI para tener coherencia con los 
+                guinistas tamb deberia separar nombre y apellido
+                -->
+                <nombrep>Clara Lago</nombrep>
+                <annonac>1990</annonac>
+                <pais>España</pais>
+            <actor>
+
+            <!-- = para el resto de actores-->
+        </actores>
+        <premios>
+            <premio>
+                <nombrep>Goya</nombrep>
+                <categoria>Mejor actriz de reparto</categoria>
+                <annop>2015</annop>
+            </premio>
+
+            <premio>
+
+            <!-- ASI sucesivamente -->
+            
+            </premio>
+        </premios>
+    </pelicula>
+
+    <pelicula>
+
+    <!-- COSITAS DEE AHORA O NUNCA QUE NO ME SALE DE LA
+    RIATA AÑADIR XD -->
+
+    </pelicula>
+</cine>

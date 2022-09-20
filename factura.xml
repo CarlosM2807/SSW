@@ -1,0 +1,37 @@
+<? xml version="1.0" ?>
+<!DOCTYPE factura SYSTEM factura.dtd>
+
+<factura>
+    <numero>999</numero>
+    <fecha>12-01-2005</fecha>
+    <datosempresa>
+        <nombre>Equipos digitales S.L.</nombre>
+        <direccion>Av. Manzanos s/n</direccion>
+        <cuidad>Madrid</ciudad>
+        <codpost>28015</codpost>
+        <cif>561852356</cif>
+    </datosempresa>
+
+    <datoscliente>
+        <!-- Datos del cliente -->
+    </datoscliente>
+
+    <datosfactura>
+        <referencias>
+            <referencia>MI93</referencia>
+            <referencia>MB84</referencia>
+            <referencia>ME32</referencia>
+            <referencia>HDA3</referencia>
+        <referencias>
+
+        <descripciones>
+            <!-- TODAS LAS DESCRIPCIONES ETC ETC-->
+        </descripciones>
+
+        <!--  ................... -->
+    </datosfactura>
+    <baseimponible>123432</baseimponible>
+    <iva>29</iva>
+    <cuota>211</cuota>
+    <total>29292</total>
+</factura>

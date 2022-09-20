@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+  <meta charset="UTF-8">
+  <head>
+    <h1 id = "titulo1">Contenidos</h1>
+  </head>
+  <body>
+    <div id = "lsitasDiv">
+      <ul>
+        <li>TEMA 1</li>
+          <ol>
+            <li> Protocolo HTTP </li>
+            <li> Lenguaje HTML </li>
+            <li> Lenguaje XML </li>
+            <li> Lenguaje CSS </li>
+          </ol>
+        <li>TEMA 2</li>
+          <ol>
+            <li> Páginas JSP </li>
+            <li> Desarrollo de servlets </li>
+            <li> El lenguaje Javascript </li>
+          </ol>
+      </ul>
+    </div>
+
+      <h1 id = "titulo2">Resumen</h1>
+    <div id = "tablaDiv">
+      <table id= "tabla1" border="1">
+        <thead>
+          <td>Modelo</td>
+          <td>Capacidad</td>
+          <td>Color</td>
+          <td>Precio</td>
+        </thead>
+        <tbody>
+        <tr>
+          <td>Clasic</td>
+          <td>5 GB</td>
+          <td>verde</td>
+          <td>200</td>
+        </tr>
+        <tr>
+          <td>Mini</td>
+          <td>10 GB</td>
+          <td>rojo</td>
+          <td>100</td>
+        </tr>
+        <tr>
+          <td>Nano</td>
+          <td>10 GB</td>
+          <td>negro</td>
+          <td>150</td>
+        </tr>
+        <tr>
+          <td>Shuffle</td>
+          <td>5 GB</td>
+          <td>azul</td>
+          <td>100</td>
+        </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan = 3> Total </td>
+            <td> 550 </td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+      <h1 id = "titulo3">Registro</h1>
+
+    <div>
+      <form id = "formulario" method = "post" action = "postDatos">
+        <p>Nombre:
+        <input name = "metenombre" type = "text"></p>
+        <p>Apellidos:
+        <input name = "meteapellidos" type = "text"></p>
+        <p><input type="checkbox" name="aceptar" value = "Aceptar"> Acepto las condiciones</p>
+        <p>Procedencia: <input name = "procedencia" type = "radio" value = "España">
+          España <input name = "procedencia" type = "radio" value = "Europa">
+          Europa <input name = "procedencia" type = "radio" value = "Resto"> Resto Mundo </p>
+        <p><input name = "enviar" type = "submit" value = "Enviar"></p>
+      </form>
+    </div>
+
+    <h1 id = "titulo4">Registro</h1>
+
+      <div name = "imagenes">
+        <img name = "primeraImg" src = "/classic.jpg">
+        <img name = "segundaImg" src = "/nano.jpg">
+        <img name = "primeraImg" src = "/shuffle.jpg">
+      </div>
+    </body>
+  </html>

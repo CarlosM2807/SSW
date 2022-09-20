@@ -1,0 +1,89 @@
+<html>
+
+<head>
+    <meta charset="utf-8"/>
+    <link rel="stylesheet" type="text/css" href="coche.css"/>
+</head>
+<body>
+    <h1> Datos de la transacción </h1>
+    <form method="POST" action="tramita" name="formulario">
+        <p>Nombre: <input type="text"/></p>
+        <p>Contraseña: <input type="password"/></p>
+        <p>Descripcion:</p>
+        <textarea cols="10" rows="8"> </textarea>
+
+        <p> Tipo:
+            <input type="radio">Alquiler</>
+            <input type="radio">Venta</>
+            <input type="radio">Donación</>
+        </p>
+        <p>Valoracion: 
+            <select>
+            <option selected>5</option>
+            <option >4</option>
+            <option >3</option>
+            <option >2</option>
+            <option >1</option>
+            </select>
+        </p>
+        <input type="checkbox">Acepto las condiciones</>
+        <br>
+        <br>
+        <input type="submit" value="Enviar">
+    </form>
+
+    <h1> Condiciones </h1>
+    <ul>
+        <li>Alquiler</li>
+        <ol>
+            <li> Realizar ITV</li>
+            <li> Pagar fianza</li>
+        </ol>
+        <li>Venta</li>
+        <ol>
+            <li> Realizar ITV</li>
+            <li> Pagar fianza</li>
+        </ol>
+        <li>Donacion</li>
+        <ol>
+            <li> Realizar ITV</li>
+            <li> Pagar fianza</li>
+        </ol>
+    </ul>
+
+    <h1> Inventario </h1>
+    <table border="1">
+        <tr>
+            <td></td>
+            <td colspan="4">Caracteristicas</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>Caballos</td>
+            <td>Velocidad</td>
+            <td>Color</td>
+        </tr>
+        <tr>
+            <td>Seat leon</td>
+            <td>Caballos</td>
+            <td>Velocidad</td>
+            <td>Color</td>
+        </tr>
+        <tr>
+            <td>Opel Corsa</td>
+            <td>Caballos</td>
+            <td>Velocidad</td>
+            <td>Color</td>
+        </tr>
+        <tr>
+            <td>Renaul Clio</td>
+            <td>Caballos</td>
+            <td>Velocidad</td>
+            <td>Color</td>
+        </tr>
+    </table>
+
+    <h1>Vista preliminar</h1>
+    <a href="leon.html"><img src="leon.png"></a>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!ELEMENT cine (pelicula+,actores)>
+<!ELEMENT pelicula (titulo,anno,director,guionistas+,actores+,premios*)>
+<!ELEMENT titulo (#PCDATA)>
+<!ELEMENT anno (#PCDATA)>
+<!ELEMENT director (#PCDATA)>
+<!ELEMENT guionistas (guionista+)>
+<!ELEMENT guionista (nombre,apellido)>
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT apellido (#PCDATA)>
+<!ELEMENT actores (actor+)>
+<!ELEMENT actor (nombrea,annonac,pais)>
+<!ELEMENT nombrea (#PCDATA)>
+<!ELEMENT annonac (#PCDATA)>
+<!ELEMENT pais (#PCDATA)>
+<!ELEMENT premios (premio+)>
+<!ELEMENT premio (nombrep,categoria,annop)>
+<!ELEMENT nombrep (#PCDATA)>
+<!ELEMENT categoria (#PCDATA)>
+<!ELEMENT annop (#PCDATA)>
+<!ATTLIST actor numero ID #REQUIRED>

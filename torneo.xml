@@ -1,0 +1,45 @@
+<? xml version="1.0"?>
+<!DOCTYPE torneo SYSTEM dtdtorneo.dtd>
+
+<torneo>
+    <partido>
+        <equipo1>Athletic</equipo1>
+        <equipo2>Real Madrid</equipo2>
+        <resultado>1-0</resultado>
+        <goles>
+            <gol>
+                <resultado>1-0</resultado>
+                <jugador>Aduriz</jugador>
+                <minuto>26</minuto>
+            <gol>
+        </goles>
+        <tarjetas>
+            <tarjeta tipo="amarilla">
+                <jugador>Kroos</jugador>
+                <minuto>12</minuto>
+            </tarjeta>
+            <tarjeta tipo="amarilla">
+                <jugador>Aduriz</jugador>
+                <minuto>24</minuto>
+            </tarjeta>
+            <tarjeta tipo="amarilla">
+                <jugador>Etxeita</jugador>
+                <minuto>26</minuto>
+            </tarjeta>
+            <tarjeta tipo="amarilla">
+                <jugador>Illarramendi</jugador>
+                <minuto>72</minuto>
+            </tarjeta>
+        </tarjetas>
+        <arbitro>Undiano Mallenco</arbitro>
+    </partido>
+
+
+    <partido>
+
+
+    <!-- COSITAS DEL PARTIDO DEL DEPOR -->
+
+    </partido>
+</torneo>
+

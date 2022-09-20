@@ -1,0 +1,27 @@
+<? xml version="1.0"?>
+<!DOCTYPE biblioteca SYSTEM biblioteca.dtd>
+
+<biblioteca>
+    <libro>
+        <titulo>Murach's Java Servlets and JSP</titulo>
+        <autores>
+            <autor>Andrea Steelman</autor> 
+            <autor>Joel Murach</autor>
+        </autores>
+        <isbn> 978-1890774448</isbn>
+        <editorial>Editorial Mike Murach Associates</editorial>
+        <anno>2008</anno>
+    </libro>
+
+    <libro>
+        <titulo>Web Services: Concepts, Architectures and Application</titulo>
+        <autores>
+            <autor>Gustavo Alonso</autor> 
+            <autor>Fabio Casati</autor>
+        </autores>
+        <isbn> 978-1890774448</isbn>
+        <editorial>Editorial Mike Murach Associates</editorial>
+        <anno>2008</anno>
+    </libro>
+
+</biblioteca>

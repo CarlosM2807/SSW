@@ -1,0 +1,29 @@
+{
+    "torneo" : [
+        {
+            "equipo1" : "Athletic",
+            "equipo2" : "Real Madrid",
+            "resultado" : "1-0",
+            "goles" : [
+                {
+                    "resultado" : "1-0",
+                    "jugador" : "Aduriz",
+                    "minuto" : 26
+                }
+            ],
+
+            "tarjetas" : [
+                {
+                    "tipo" : "amarilla",
+                    "jugador" : "Kroos",
+                    "minuto" : 12
+                },
+                {
+                    "tipo" : "amarilla",
+                    "jugador" : "Kroos",
+                    "minuto" : 12  
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,14 @@
+<!ELEMENT torneo (partido+)>
+<!ELEMENT partido (equipo1,equipo2,resultado,goles?,tarjetas?,arbitro)>
+<!ELEMENT goles (gol+)>
+<!ELEMENT gol (resultado,jugador,minuto)>
+<!ELEMENT tarjetas (tarjeta+)>
+<!ELEMENT tarjeta (jugador, minuto)>
+<!ELEMENT equipo1 (#PCDATA)>
+<!ELEMENT equipo2 (#PCDATA)>
+<!ELEMENT resultado (#PCDATA)>
+<!ELEMENT jugador (#PCDATA)>
+<!ELEMENT minuto (#PCDATA)>
+<!ELEMENT arbitro (#PCDATA)>
+<!ATTLIST tarjeta tipo (amarilla|roja) #REQUIRED>
+<!ATTLIST gol tipo (penalti|ppuerta) #IMPLIED>

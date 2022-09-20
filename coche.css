@@ -1,0 +1,22 @@
+h1{
+    font-family : Verdana;
+    font-size: 18pt;
+    color: red;
+}
+
+ul{
+    color : green;
+    font-family: sans-serif;
+    font-size: 12pt;
+}
+
+table{
+    font-family: Courier;
+    font-size: 18pt;
+    color: blue;
+    margin: 25px;
+}
+
+td{
+    padding: 5px;
+}
