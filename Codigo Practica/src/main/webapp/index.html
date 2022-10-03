@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Principal Cash Saving</title>
+
+</head>
+<body>
+	<!-- Zona de arriba con el texto, la imagen y las felchas que indica scroll-->
+	<div id = "centro">
+		<h2 id = "texto_principal">Gestor de finanzas <br>
+		completo, <br>
+		seguro y <br>
+		fácil de usar</h2>
+		<img id = "imgCentro" src="imagenes/imagen_buena.png"/>
+		<div class="bloquefelcha">
+			<div class="chevron"></div>
+			<div class="chevron"></div>
+			<div class="chevron"></div>
+		  </div>
+		
+  	</div>
+
+	<!-- Barra de arriba con logo, nombre y botones -->
+  	<nav class="navbar">
+		<span class="navbar-toggle" id="js-navbar-toggle">
+            <i class="fas fa-bars"></i>
+    </span>
+	  <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times;</a>
+        <a href="index.html">INICIO</a>
+        <a href="descripcion.html">SOBRE NOSOTROS</a>
+        <a href="login.html">TU PERFIL</a>
+        <div class="contenedor-div"></div>
+            <a class="contacto" href="descripcion.html">CONTÁCTANOS</a>
+            <a class="fotos" href="https://www.instagram.com/cash_saving_uva/"><img id="imgIns" src="imagenes/instagram.png" <="" img=""></a>
+            <a class="fotos2" href="https://twitter.com/CashSaving1"><img id="imgTw" src="imagenes/twitter.png" <="" img=""></a>
+            <a class="fotos3" href="#"><img id="imgTel" src="imagenes/telefono.png" <="" img=""></a>
+        </div>
+        <div id="main" style="margin-left: 0px;">
+			<span id="button" style="font-size: 30px; cursor: pointer; color: white; display: block;" onclick="openNav()">☰ </span>
+		</div>
+		<p id="nombre2">CASH SAVING</p>
+		<ul class="main-nav" id="js-menu">
+	
+		  <li>
+                      <a href="login.html" class="nav-links2">Log in</a>
+		  </li>
+		  <li>
+			<a href="Registro.html" class="nav-links2">Sign in!</a>
+		  </li>
+		  
+		</ul>
+	  </nav>
+	  	<hr id="raya">
+	
+	<!-- Primer gif con mensaje y animación -->
+	  <div id="desc1">
+		<section class="content">
+			<div class="scroll-content fadeTop">
+		  <h4 id ="separa">~</h4>
+		</div>
+	</section>
+		<section class="content">
+		<div class="scroll-content fadeRight">
+	  	<h3 id = "descripcion">App especializada en <br>administrar tu dinero.</h3>
+		</div>
+		</section>
+		<section class="content">
+			<div class="scroll-content fadeLeft">
+		  <img id = "monedas"src="imagenes/dinero.gif"></img>
+		</div>
+	</section>
+	  </div>
+	  
+	
+	<!-- Segundo gif con mensaje y animación -->
+	  <div id = "desc2">
+		<section class="content">
+			<div class="scroll-content fadeTop">
+		  <h4 id ="separa2">~</h4>
+		</div>
+	</section>
+		<section class="content">
+			<div class="scroll-content fadeLeft">
+	  	<h3 id = "descripcion1">Revisa estadísticas <br> sobre tus movimientos recientes <br> de forma rápida y sencilla. </h3>
+	</div>
+	</section>
+	<section class="content">
+		<div class="scroll-content fadeRight">
+		  <img id = "gif" src="imagenes/gif.gif"/>
+		</div>
+	</section>
+	  </div>
+	
+	<!-- Tercer gif con mensaje y animación -->
+	  <div id = "desc3">
+		<section class="content">
+			<div class="scroll-content fadeTop">
+		  <h4 id ="separa3">~</h4>
+		</div>
+	</section>
+		<section class="content">
+		<div class="scroll-content fadeRight">
+	  	<h3 id = "descripcion2">Registra tus movimientos.</h3>
+	</div>
+	</section>
+	<section class="content">
+		<div class="scroll-content fadeLeft">
+		  <img id = "bizum"src="imagenes/bizum.gif"></img>
+		</div>
+	</section>
+		</div>
+	
+	<!-- Tercer gif con mensaje y animación -->
+	  <div id = "desc4">
+		<section class="content">
+			<div class="scroll-content fadeTop">
+		  <h4 id ="separa4">~</h4>
+		</div>
+	</section>
+		<section class="content">
+		<div class="scroll-content fadeLeft">
+	  	<h3 id = "descripcion3">Crea planes de ahorro <br> adaptados a tus necesidades. </h3>
+	</div>
+	</section>
+	<section class="content">
+		<div class="scroll-content fadeRight">
+		  <img id = "ahorro"src="imagenes/ahorro.gif"></img>
+		</div>
+	</section>
+
+	<!-- Boton de registro animado abajo del todo -->
+	<button onclick="window.location.href='Registro.html'"" class="button" id="botonRegistroPrincipal">
+		Register and start saving!
+		<div class="button__horizontal" id="bot_hor"></div>
+		
+		<div class="button__vertical" id="bot_ver"></div>
+	</button>
+		</svg>
+
+	  </div>
+	
+	<!-- Fondo animado -->
+	  <div class="area">
+		<ul class="circles">
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+				<li></li>
+		</ul>
+</div>
+</div>
+</body>
+
+<link rel="stylesheet" href="estilos.css" type="text/css" />
+<script>
+
+function openNav() {
+		document.getElementById("mySidenav").style.width = "250px";
+		document.getElementById("main").style.marginLeft = "250px";
+		document.getElementById("button").style.display = "none";
+	}
+	
+	function closeNav() {
+		document.getElementById("mySidenav").style.width = "0";
+		document.getElementById("main").style.marginLeft= "0";
+		document.getElementById("button").style.display = "block";
+	}
+//Animación de textos gifs cuando se scrollea
+window.addEventListener('scroll', function()  {
+		let elements = document.getElementsByClassName('scroll-content');
+		let screenSize = window.innerHeight;
+		
+		  for(var i = 0; i < elements.length; i++) {
+			let element = elements[i];
+	  
+			if(element.getBoundingClientRect().top < screenSize) {
+			  element.classList.add('visible');
+			} else {
+			  element.classList.remove('visible');
+			}
+		  }
+	  })
+</script>
+</html>
